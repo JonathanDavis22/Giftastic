@@ -1,0 +1,13 @@
+#person-form {
+    float: right;
+    margin: 20px;
+    width: 250px;
+}
+
+#person-input {
+    width: 300px;
+}
+
+body {
+    margin: 20px;
+}
