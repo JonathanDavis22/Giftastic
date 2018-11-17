@@ -13,6 +13,7 @@ for (var i = 0; i < persons.length; i++) {
 }
 
 $(document).on('click', ".gif-button", function(){
+    $("#gifs-appear-here").empty();
     var person = $(this).text();
     console.log(person);
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + person +
